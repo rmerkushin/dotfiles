@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Default",
+        "accent": "Blue"
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": true,
+    "editor.rulers": [120],
+    "files.trimTrailingWhitespace": true,
+    "python.venvPath": "~/.pyenv",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Args": ["--max-line-length=120"],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [],
+    "python.formatting.formatOnSave": true,
+    "python.autoComplete.extraPaths": ["${workspaceRoot}"],
+    "python.autoComplete.addBrackets": true
+}
