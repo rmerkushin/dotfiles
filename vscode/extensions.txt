@@ -2,3 +2,6 @@ EditorConfig for VS Code
 Material Theme
 Python
 Robot Framework Intellisense
+Excel Viewer
+REST Client
+XML Tools
