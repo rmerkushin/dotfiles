@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.iconTheme": "file-icons",
     "materialTheme.cache.workbench.settings": {
         "themeColours": "Default",
         "accent": "Blue"
@@ -19,7 +19,9 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/__pycache__": true
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "**/.mypy_cache": true
     },
     "python.venvPath": "~/.pyenv",
     "python.linting.enabled": true,
@@ -28,7 +30,7 @@
     "python.linting.lintOnSave": true,
     "python.linting.flake8Args": ["--max-line-length=120"],
     "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": [],
+    "python.formatting.autopep8Args": ["--max-line-length 120"],
     "python.formatting.formatOnSave": true,
     "python.autoComplete.extraPaths": ["${workspaceRoot}"],
     "python.autoComplete.addBrackets": true
