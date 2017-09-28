@@ -1,11 +1,12 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "file-icons",
     "materialTheme.cache.workbench.settings": {
         "themeColours": "Default",
         "accent": "Blue"
     },
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.icons": "blue",
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
@@ -30,7 +31,7 @@
     "python.linting.lintOnSave": true,
     "python.linting.flake8Args": ["--max-line-length=120", "--ignore=F811"],
     "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": ["--max-line-length 120"],
+    "python.formatting.autopep8Args": ["--max-line-length=120"],
     "python.formatting.formatOnSave": true,
     "python.autoComplete.extraPaths": ["${workspaceRoot}"],
     "python.autoComplete.addBrackets": true
