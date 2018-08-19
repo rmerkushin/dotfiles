@@ -1,9 +1,8 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Solarized Dark",
     "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": true,
@@ -13,34 +12,18 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": true,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/__pycache__": true,
-        "**/.cache": true,
-        "**/.mypy_cache": true
-    },
+    "python.jediEnabled": false,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
+    "python.linting.flake8Path": "${env:HOME}/.pyenv/versions/tools/bin/flake8",
     "python.linting.flake8Enabled": true,
     "python.linting.lintOnSave": true,
     "python.linting.flake8Args": [
-        "--max-line-length=120",
-        "--ignore=F811"
-    ],
-    "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": [
         "--max-line-length=120"
     ],
-    "python.autoComplete.extraPaths": [
-        "${workspaceRoot}"
-    ],
-    "python.autoComplete.addBrackets": true,
-    "materialTheme.cache.workbench.settings": {
-        "themeColours": "Palenight"
-    },
-    "material-icon-theme.folders.color": "#2196F3"
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "${env:HOME}/.pyenv/versions/tools/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length=120"
+    ]
 }
