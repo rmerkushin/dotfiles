@@ -10,8 +10,9 @@ function fish_prompt
     set -l venv_color       (set_color green)
 
     if set -q VIRTUAL_ENV
-        set -l venv_name (basename "$VIRTUAL_ENV")
-        echo -n -s $venv_color "[$venv_name] "
+        # set -l venv_name (basename "$VIRTUAL_ENV")
+        # echo -n -s $venv_color "[$venv_name] "
+        echo -n -s $venv_color "[venv] "
     end
 
     echo -n -s $path_color (prompt_pwd)" "
