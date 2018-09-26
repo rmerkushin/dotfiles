@@ -2,7 +2,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Solarized Dark",
     "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": true,
