@@ -1,4 +1,5 @@
 {
+    "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Solarized Dark",
     "editor.fontFamily": "Fira Code",
