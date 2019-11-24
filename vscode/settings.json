@@ -1,7 +1,9 @@
 {
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 16,
     "editor.fontLigatures": true,
@@ -11,19 +13,32 @@
         120
     ],
     "editor.formatOnSave": true,
-    "files.trimTrailingWhitespace": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
-    "python.linting.flake8Path": "${env:HOME}/.pyenv/versions/tools/bin/flake8",
+    "python.linting.flake8Path": "${env:HOME}/Workspace/PyTools/.venv/bin/flake8",
     "python.linting.flake8Enabled": true,
     "python.linting.lintOnSave": true,
     "python.linting.flake8Args": [
-        "--max-line-length=120"
+        "--max-line-length=120",
+        "--ignore=E731"
     ],
     "python.formatting.provider": "black",
-    "python.formatting.blackPath": "${env:HOME}/.pyenv/versions/tools/bin/black",
+    "python.formatting.blackPath": "${env:HOME}/Workspace/PyTools/.venv/bin/black",
     "python.formatting.blackArgs": [
         "--line-length=120"
-    ]
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".vscode": true,
+        ".pytest_cache": true,
+        "**/__pycache__": true,
+        ".venv": true
+    }
 }
